@@ -6,6 +6,8 @@ from math import sqrt, ceil, floor
 
 from PIL import Image
 
+Image.MAX_IMAGE_PIXELS = 100000000000
+
 from .helpers import get_basename
 
 
